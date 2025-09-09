@@ -1,0 +1,24 @@
+{
+  "name": "typescript-review",
+  "version": "1.0.0",
+  "description": "A TypeScript project for review the basics of object-oriented programming and domain-driven design applied to CRM and Sales context.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Opem-Source Applications Development Team",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "oop",
+    "ddd",
+    "crm",
+    "sales"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
